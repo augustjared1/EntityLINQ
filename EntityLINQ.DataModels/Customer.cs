@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntityLINQ.DataModels
 {
-    public class Class1
+    public class Customer
     {
+        public int id { get; set; }
+        public string Name { get; set; }
+        public DateTime Birthday { get; set; }
     }
 }
